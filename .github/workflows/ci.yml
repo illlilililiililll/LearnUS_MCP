@@ -1,0 +1,27 @@
+name: CI
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  non-live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      LEARNUS_INTEGRATION: '0'
+      LEARNUS_DOWNLOAD_INTEGRATION: '0'
+      LEARNUS_ID: ''
+      LEARNUS_PASSWORD: ''
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.19.0'
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: npm run lint
+      - run: npm test
+      - run: npm run test:browser
+      - run: npm run test:inspector
+      - run: npm run evaluate:tokens

@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import {load} from 'cheerio';
+import {authenticatedHtml} from '../dist/parser/session.js';
+const html=fs.readFileSync('_research/LearnUs YONSEI.html','utf8'), $=load(html);
+console.log(JSON.stringify({authenticated:authenticatedHtml(html,'https://ys.learnus.org/'),logoutLinkCount:$('a[href*="logout"]').length,courseLinkCount:$('a[href*="course/view.php"]').length}));
+const har=JSON.parse(fs.readFileSync('_research/ys.learnus.org.har','utf8'));
+const login=har.log.entries.find(e=>new URL(e.request.url).pathname==='/sso/PmSSOService');
+const content=login?.response.content;const text=content?.encoding==='base64'?Buffer.from(content.text,'base64').toString():content?.text;
+const l=load(text||'');
+console.log(JSON.stringify({loginInputCount:l('input').length,captchaContainerCount:l('[id*="captcha"], [class*="captcha"]').length}));

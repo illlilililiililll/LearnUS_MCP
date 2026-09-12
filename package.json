@@ -1,0 +1,43 @@
+{
+  "name": "learnus-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src tests",
+    "start": "node dist/index.js",
+    "inspector": "mcp-inspector node dist/index.js",
+    "test:integration": "vitest run tests/integration.test.ts",
+    "test:integration:m5": "vitest run tests/m5.integration.test.ts",
+    "test:integration:learning": "vitest run tests/learning.integration.test.ts",
+    "test:integration:overview": "vitest run tests/overview.integration.test.ts",
+    "test:integration:performance": "vitest run tests/performance.integration.test.ts",
+    "test:inspector": "node scripts/inspector-smoke.mjs",
+    "test:browser": "node scripts/browser-smoke.mjs",
+    "benchmark:performance": "npm run build && node scripts/performance-benchmark.mjs",
+    "evaluate:mcp": "npm run build && node scripts/evaluate-mcp.mjs",
+    "evaluate:tokens": "npm run build && node scripts/evaluate-token.mjs",
+    "evaluate:tokens:baseline": "npm run build && node scripts/evaluate-token.mjs --capture-baseline",
+    "test:integration:release": "vitest run tests/release.integration.test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "acorn": "^8.18.0",
+    "cheerio": "^1.2.0",
+    "playwright": "^1.63.0",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^2.5.0",
+    "@types/node": "^26.4.1",
+    "eslint": "^10.10.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.69.0",
+    "vitest": "^3.2.7"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  }
+}

@@ -1,0 +1,1747 @@
+{
+  "mode": "synthetic",
+  "definitions": {
+    "toolCount": 16,
+    "totalDefinitionBytes": 23795,
+    "totalDescriptionBytes": 9925,
+    "totalSchemaBytes": 10594,
+    "rows": [
+      {
+        "name": "learnus_get_overview",
+        "descriptionBytes": 917,
+        "schemaBytes": 2633,
+        "metadataBytes": 174,
+        "totalBytes": 3754
+      },
+      {
+        "name": "learnus_get_weekly_tasks",
+        "descriptionBytes": 991,
+        "schemaBytes": 1691,
+        "metadataBytes": 178,
+        "totalBytes": 2890
+      },
+      {
+        "name": "learnus_upcoming",
+        "descriptionBytes": 657,
+        "schemaBytes": 1875,
+        "metadataBytes": 170,
+        "totalBytes": 2732
+      },
+      {
+        "name": "learnus_get_learning_overview",
+        "descriptionBytes": 585,
+        "schemaBytes": 649,
+        "metadataBytes": 183,
+        "totalBytes": 1447
+      },
+      {
+        "name": "learnus_list_files",
+        "descriptionBytes": 600,
+        "schemaBytes": 549,
+        "metadataBytes": 172,
+        "totalBytes": 1351
+      },
+      {
+        "name": "learnus_get_video_attendance",
+        "descriptionBytes": 567,
+        "schemaBytes": 486,
+        "metadataBytes": 182,
+        "totalBytes": 1265
+      },
+      {
+        "name": "learnus_list_videos",
+        "descriptionBytes": 625,
+        "schemaBytes": 345,
+        "metadataBytes": 173,
+        "totalBytes": 1173
+      },
+      {
+        "name": "learnus_get_announcement",
+        "descriptionBytes": 540,
+        "schemaBytes": 395,
+        "metadataBytes": 178,
+        "totalBytes": 1143
+      },
+      {
+        "name": "learnus_list_announcements",
+        "descriptionBytes": 564,
+        "schemaBytes": 351,
+        "metadataBytes": 180,
+        "totalBytes": 1125
+      },
+      {
+        "name": "learnus_download_file",
+        "descriptionBytes": 483,
+        "schemaBytes": 443,
+        "metadataBytes": 154,
+        "totalBytes": 1110
+      },
+      {
+        "name": "learnus_get_assignment",
+        "descriptionBytes": 561,
+        "schemaBytes": 314,
+        "metadataBytes": 176,
+        "totalBytes": 1081
+      },
+      {
+        "name": "learnus_list_activities",
+        "descriptionBytes": 571,
+        "schemaBytes": 235,
+        "metadataBytes": 177,
+        "totalBytes": 1013
+      },
+      {
+        "name": "learnus_list_notifications",
+        "descriptionBytes": 557,
+        "schemaBytes": 223,
+        "metadataBytes": 180,
+        "totalBytes": 990
+      },
+      {
+        "name": "learnus_get_course",
+        "descriptionBytes": 546,
+        "schemaBytes": 235,
+        "metadataBytes": 172,
+        "totalBytes": 983
+      },
+      {
+        "name": "learnus_auth_status",
+        "descriptionBytes": 613,
+        "schemaBytes": 85,
+        "metadataBytes": 173,
+        "totalBytes": 901
+      },
+      {
+        "name": "learnus_list_courses",
+        "descriptionBytes": 548,
+        "schemaBytes": 85,
+        "metadataBytes": 174,
+        "totalBytes": 837
+      }
+    ]
+  },
+  "rows": [
+    {
+      "toolName": "learnus_list_courses",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 114,
+      "mcpEnvelopeBytes": 167,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 88,
+      "emptyFields": 1,
+      "longTextFields": 0,
+      "urlCount": 1,
+      "urlBytes": 45,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 1,
+      "cacheHits": 0,
+      "cacheMisses": 1,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_list_courses",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 114,
+      "mcpEnvelopeBytes": 167,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 88,
+      "emptyFields": 1,
+      "longTextFields": 0,
+      "urlCount": 1,
+      "urlBytes": 45,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 0,
+      "cacheHits": 1,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0
+    },
+    {
+      "toolName": "learnus_get_course",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 540,
+      "mcpEnvelopeBytes": 651,
+      "itemCount": 3,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 492,
+      "emptyFields": 0,
+      "longTextFields": 0,
+      "urlCount": 3,
+      "urlBytes": 147,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 1,
+      "cacheHits": 0,
+      "cacheMisses": 1,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_get_course",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 540,
+      "mcpEnvelopeBytes": 651,
+      "itemCount": 3,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 492,
+      "emptyFields": 0,
+      "longTextFields": 0,
+      "urlCount": 3,
+      "urlBytes": 147,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 0,
+      "cacheHits": 1,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0
+    },
+    {
+      "toolName": "learnus_list_activities",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 485,
+      "mcpEnvelopeBytes": 592,
+      "itemCount": 3,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 492,
+      "emptyFields": 0,
+      "longTextFields": 0,
+      "urlCount": 3,
+      "urlBytes": 147,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 1,
+      "cacheHits": 0,
+      "cacheMisses": 1,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_list_activities",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 485,
+      "mcpEnvelopeBytes": 592,
+      "itemCount": 3,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 492,
+      "emptyFields": 0,
+      "longTextFields": 0,
+      "urlCount": 3,
+      "urlBytes": 147,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 0,
+      "cacheHits": 1,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0
+    },
+    {
+      "toolName": "learnus_get_assignment",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 1017,
+      "mcpEnvelopeBytes": 1084,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "longText",
+      "largestFieldCategoryBytes": 782,
+      "emptyFields": 3,
+      "longTextFields": 1,
+      "urlCount": 1,
+      "urlBytes": 50,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 1,
+      "cacheHits": 0,
+      "cacheMisses": 1,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_get_assignment",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 1017,
+      "mcpEnvelopeBytes": 1084,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "longText",
+      "largestFieldCategoryBytes": 782,
+      "emptyFields": 3,
+      "longTextFields": 1,
+      "urlCount": 1,
+      "urlBytes": 50,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 0,
+      "cacheHits": 1,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0
+    },
+    {
+      "toolName": "learnus_upcoming",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 45,
+      "mcpEnvelopeBytes": 90,
+      "itemCount": 0,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 7,
+      "emptyFields": 2,
+      "longTextFields": 0,
+      "urlCount": 0,
+      "urlBytes": 0,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 1,
+      "cacheHits": 0,
+      "cacheMisses": 1,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_upcoming",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 45,
+      "mcpEnvelopeBytes": 90,
+      "itemCount": 0,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 7,
+      "emptyFields": 2,
+      "longTextFields": 0,
+      "urlCount": 0,
+      "urlBytes": 0,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 0,
+      "cacheHits": 1,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0
+    },
+    {
+      "toolName": "learnus_list_announcements",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 374,
+      "mcpEnvelopeBytes": 457,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 369,
+      "emptyFields": 1,
+      "longTextFields": 0,
+      "urlCount": 1,
+      "urlBytes": 62,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {
+        "diagnostics": 1
+      },
+      "networkRequests": 2,
+      "cacheHits": 0,
+      "cacheMisses": 1,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_list_announcements",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 374,
+      "mcpEnvelopeBytes": 457,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 369,
+      "emptyFields": 1,
+      "longTextFields": 0,
+      "urlCount": 1,
+      "urlBytes": 62,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {
+        "diagnostics": 1
+      },
+      "networkRequests": 0,
+      "cacheHits": 1,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0
+    },
+    {
+      "toolName": "learnus_get_announcement",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 52,
+      "mcpEnvelopeBytes": 95,
+      "warningsCount": 1,
+      "structuredContent": false,
+      "largestFieldCategory": "warnings",
+      "largestFieldCategoryBytes": 39,
+      "emptyFields": 0,
+      "longTextFields": 0,
+      "urlCount": 0,
+      "urlBytes": 0,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 1,
+      "cacheHits": 0,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_get_announcement",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 52,
+      "mcpEnvelopeBytes": 95,
+      "warningsCount": 1,
+      "structuredContent": false,
+      "largestFieldCategory": "warnings",
+      "largestFieldCategoryBytes": 39,
+      "emptyFields": 0,
+      "longTextFields": 0,
+      "urlCount": 0,
+      "urlBytes": 0,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 1,
+      "cacheHits": 0,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_list_notifications",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 613,
+      "mcpEnvelopeBytes": 674,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 594,
+      "emptyFields": 1,
+      "longTextFields": 1,
+      "urlCount": 1,
+      "urlBytes": 50,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 1,
+      "cacheHits": 0,
+      "cacheMisses": 1,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_list_notifications",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 613,
+      "mcpEnvelopeBytes": 674,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 594,
+      "emptyFields": 1,
+      "longTextFields": 1,
+      "urlCount": 1,
+      "urlBytes": 50,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 0,
+      "cacheHits": 1,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0
+    },
+    {
+      "toolName": "learnus_get_overview",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 738,
+      "mcpEnvelopeBytes": 871,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 743,
+      "emptyFields": 2,
+      "longTextFields": 0,
+      "urlCount": 2,
+      "urlBytes": 112,
+      "repeatedIdentityOccurrences": 2,
+      "internalFieldCounts": {},
+      "networkRequests": 5,
+      "cacheHits": 0,
+      "cacheMisses": 5,
+      "coalescedRequests": 2,
+      "peakConcurrentRequests": 2,
+      "sections": [
+        {
+          "name": "range",
+          "itemCount": 1,
+          "bytes": 39,
+          "averageBytesPerItem": 39
+        },
+        {
+          "name": "actionable assignments",
+          "itemCount": 1,
+          "bytes": 217,
+          "averageBytesPerItem": 217
+        },
+        {
+          "name": "actionable learning/videos",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "upcoming/deadlines",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational announcements",
+          "itemCount": 1,
+          "bytes": 186,
+          "averageBytesPerItem": 186
+        },
+        {
+          "name": "informational notifications",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational resources",
+          "itemCount": 1,
+          "bytes": 91,
+          "averageBytesPerItem": 91
+        },
+        {
+          "name": "unknown/needs-verification",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "warnings",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "other metadata",
+          "itemCount": 1,
+          "bytes": 102,
+          "averageBytesPerItem": 102
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_get_overview",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 738,
+      "mcpEnvelopeBytes": 871,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 743,
+      "emptyFields": 2,
+      "longTextFields": 0,
+      "urlCount": 2,
+      "urlBytes": 112,
+      "repeatedIdentityOccurrences": 2,
+      "internalFieldCounts": {},
+      "networkRequests": 0,
+      "cacheHits": 5,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0,
+      "sections": [
+        {
+          "name": "range",
+          "itemCount": 1,
+          "bytes": 39,
+          "averageBytesPerItem": 39
+        },
+        {
+          "name": "actionable assignments",
+          "itemCount": 1,
+          "bytes": 217,
+          "averageBytesPerItem": 217
+        },
+        {
+          "name": "actionable learning/videos",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "upcoming/deadlines",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational announcements",
+          "itemCount": 1,
+          "bytes": 186,
+          "averageBytesPerItem": 186
+        },
+        {
+          "name": "informational notifications",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational resources",
+          "itemCount": 1,
+          "bytes": 91,
+          "averageBytesPerItem": 91
+        },
+        {
+          "name": "unknown/needs-verification",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "warnings",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "other metadata",
+          "itemCount": 1,
+          "bytes": 102,
+          "averageBytesPerItem": 102
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_get_overview",
+      "variant": "with-notifications",
+      "status": "OK",
+      "resultBytes": 1081,
+      "mcpEnvelopeBytes": 1234,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 1074,
+      "emptyFields": 2,
+      "longTextFields": 1,
+      "urlCount": 3,
+      "urlBytes": 162,
+      "repeatedIdentityOccurrences": 2,
+      "internalFieldCounts": {},
+      "networkRequests": 6,
+      "cacheHits": 0,
+      "cacheMisses": 6,
+      "coalescedRequests": 2,
+      "peakConcurrentRequests": 3,
+      "sections": [
+        {
+          "name": "range",
+          "itemCount": 1,
+          "bytes": 39,
+          "averageBytesPerItem": 39
+        },
+        {
+          "name": "actionable assignments",
+          "itemCount": 1,
+          "bytes": 217,
+          "averageBytesPerItem": 217
+        },
+        {
+          "name": "actionable learning/videos",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "upcoming/deadlines",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational announcements",
+          "itemCount": 1,
+          "bytes": 186,
+          "averageBytesPerItem": 186
+        },
+        {
+          "name": "informational notifications",
+          "itemCount": 1,
+          "bytes": 326,
+          "averageBytesPerItem": 326
+        },
+        {
+          "name": "informational resources",
+          "itemCount": 1,
+          "bytes": 91,
+          "averageBytesPerItem": 91
+        },
+        {
+          "name": "unknown/needs-verification",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "warnings",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "other metadata",
+          "itemCount": 1,
+          "bytes": 102,
+          "averageBytesPerItem": 102
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_get_overview",
+      "variant": "with-notifications-warm",
+      "status": "OK",
+      "resultBytes": 1081,
+      "mcpEnvelopeBytes": 1234,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 1074,
+      "emptyFields": 2,
+      "longTextFields": 1,
+      "urlCount": 3,
+      "urlBytes": 162,
+      "repeatedIdentityOccurrences": 2,
+      "internalFieldCounts": {},
+      "networkRequests": 0,
+      "cacheHits": 6,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0,
+      "sections": [
+        {
+          "name": "range",
+          "itemCount": 1,
+          "bytes": 39,
+          "averageBytesPerItem": 39
+        },
+        {
+          "name": "actionable assignments",
+          "itemCount": 1,
+          "bytes": 217,
+          "averageBytesPerItem": 217
+        },
+        {
+          "name": "actionable learning/videos",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "upcoming/deadlines",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational announcements",
+          "itemCount": 1,
+          "bytes": 186,
+          "averageBytesPerItem": 186
+        },
+        {
+          "name": "informational notifications",
+          "itemCount": 1,
+          "bytes": 326,
+          "averageBytesPerItem": 326
+        },
+        {
+          "name": "informational resources",
+          "itemCount": 1,
+          "bytes": 91,
+          "averageBytesPerItem": 91
+        },
+        {
+          "name": "unknown/needs-verification",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "warnings",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "other metadata",
+          "itemCount": 1,
+          "bytes": 102,
+          "averageBytesPerItem": 102
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_get_overview",
+      "variant": "with-learning",
+      "status": "OK",
+      "resultBytes": 1306,
+      "mcpEnvelopeBytes": 1513,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 1817,
+      "emptyFields": 7,
+      "longTextFields": 0,
+      "urlCount": 3,
+      "urlBytes": 159,
+      "repeatedIdentityOccurrences": 3,
+      "internalFieldCounts": {
+        "applicabilityBasis": 1,
+        "deadlineBasis": 1,
+        "deadlineCandidates": 1
+      },
+      "networkRequests": 7,
+      "cacheHits": 0,
+      "cacheMisses": 5,
+      "coalescedRequests": 2,
+      "peakConcurrentRequests": 2,
+      "sections": [
+        {
+          "name": "range",
+          "itemCount": 1,
+          "bytes": 39,
+          "averageBytesPerItem": 39
+        },
+        {
+          "name": "actionable assignments",
+          "itemCount": 1,
+          "bytes": 217,
+          "averageBytesPerItem": 217
+        },
+        {
+          "name": "actionable learning/videos",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "upcoming/deadlines",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational announcements",
+          "itemCount": 1,
+          "bytes": 186,
+          "averageBytesPerItem": 186
+        },
+        {
+          "name": "informational notifications",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational resources",
+          "itemCount": 1,
+          "bytes": 91,
+          "averageBytesPerItem": 91
+        },
+        {
+          "name": "unknown/needs-verification",
+          "itemCount": 1,
+          "bytes": 513,
+          "averageBytesPerItem": 513
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "warnings",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "other metadata",
+          "itemCount": 1,
+          "bytes": 102,
+          "averageBytesPerItem": 102
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_get_overview",
+      "variant": "with-learning-warm",
+      "status": "OK",
+      "resultBytes": 1306,
+      "mcpEnvelopeBytes": 1513,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 1817,
+      "emptyFields": 7,
+      "longTextFields": 0,
+      "urlCount": 3,
+      "urlBytes": 159,
+      "repeatedIdentityOccurrences": 3,
+      "internalFieldCounts": {
+        "applicabilityBasis": 1,
+        "deadlineBasis": 1,
+        "deadlineCandidates": 1
+      },
+      "networkRequests": 0,
+      "cacheHits": 5,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0,
+      "sections": [
+        {
+          "name": "range",
+          "itemCount": 1,
+          "bytes": 39,
+          "averageBytesPerItem": 39
+        },
+        {
+          "name": "actionable assignments",
+          "itemCount": 1,
+          "bytes": 217,
+          "averageBytesPerItem": 217
+        },
+        {
+          "name": "actionable learning/videos",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "upcoming/deadlines",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational announcements",
+          "itemCount": 1,
+          "bytes": 186,
+          "averageBytesPerItem": 186
+        },
+        {
+          "name": "informational notifications",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational resources",
+          "itemCount": 1,
+          "bytes": 91,
+          "averageBytesPerItem": 91
+        },
+        {
+          "name": "unknown/needs-verification",
+          "itemCount": 1,
+          "bytes": 513,
+          "averageBytesPerItem": 513
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "warnings",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "other metadata",
+          "itemCount": 1,
+          "bytes": 102,
+          "averageBytesPerItem": 102
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_get_overview",
+      "variant": "course-scoped",
+      "status": "OK",
+      "resultBytes": 1306,
+      "mcpEnvelopeBytes": 1513,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 1817,
+      "emptyFields": 7,
+      "longTextFields": 0,
+      "urlCount": 3,
+      "urlBytes": 159,
+      "repeatedIdentityOccurrences": 3,
+      "internalFieldCounts": {
+        "applicabilityBasis": 1,
+        "deadlineBasis": 1,
+        "deadlineCandidates": 1
+      },
+      "networkRequests": 6,
+      "cacheHits": 0,
+      "cacheMisses": 4,
+      "coalescedRequests": 1,
+      "peakConcurrentRequests": 2,
+      "sections": [
+        {
+          "name": "range",
+          "itemCount": 1,
+          "bytes": 39,
+          "averageBytesPerItem": 39
+        },
+        {
+          "name": "actionable assignments",
+          "itemCount": 1,
+          "bytes": 217,
+          "averageBytesPerItem": 217
+        },
+        {
+          "name": "actionable learning/videos",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "upcoming/deadlines",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational announcements",
+          "itemCount": 1,
+          "bytes": 186,
+          "averageBytesPerItem": 186
+        },
+        {
+          "name": "informational notifications",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational resources",
+          "itemCount": 1,
+          "bytes": 91,
+          "averageBytesPerItem": 91
+        },
+        {
+          "name": "unknown/needs-verification",
+          "itemCount": 1,
+          "bytes": 513,
+          "averageBytesPerItem": 513
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "warnings",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "other metadata",
+          "itemCount": 1,
+          "bytes": 102,
+          "averageBytesPerItem": 102
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_get_overview",
+      "variant": "course-scoped-warm",
+      "status": "OK",
+      "resultBytes": 1306,
+      "mcpEnvelopeBytes": 1513,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 1817,
+      "emptyFields": 7,
+      "longTextFields": 0,
+      "urlCount": 3,
+      "urlBytes": 159,
+      "repeatedIdentityOccurrences": 3,
+      "internalFieldCounts": {
+        "applicabilityBasis": 1,
+        "deadlineBasis": 1,
+        "deadlineCandidates": 1
+      },
+      "networkRequests": 0,
+      "cacheHits": 4,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0,
+      "sections": [
+        {
+          "name": "range",
+          "itemCount": 1,
+          "bytes": 39,
+          "averageBytesPerItem": 39
+        },
+        {
+          "name": "actionable assignments",
+          "itemCount": 1,
+          "bytes": 217,
+          "averageBytesPerItem": 217
+        },
+        {
+          "name": "actionable learning/videos",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "upcoming/deadlines",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational announcements",
+          "itemCount": 1,
+          "bytes": 186,
+          "averageBytesPerItem": 186
+        },
+        {
+          "name": "informational notifications",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational resources",
+          "itemCount": 1,
+          "bytes": 91,
+          "averageBytesPerItem": 91
+        },
+        {
+          "name": "unknown/needs-verification",
+          "itemCount": 1,
+          "bytes": 513,
+          "averageBytesPerItem": 513
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "warnings",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "other metadata",
+          "itemCount": 1,
+          "bytes": 102,
+          "averageBytesPerItem": 102
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_get_weekly_tasks",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 1306,
+      "mcpEnvelopeBytes": 1513,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 1817,
+      "emptyFields": 7,
+      "longTextFields": 0,
+      "urlCount": 3,
+      "urlBytes": 159,
+      "repeatedIdentityOccurrences": 3,
+      "internalFieldCounts": {
+        "applicabilityBasis": 1,
+        "deadlineBasis": 1,
+        "deadlineCandidates": 1
+      },
+      "networkRequests": 7,
+      "cacheHits": 0,
+      "cacheMisses": 5,
+      "coalescedRequests": 2,
+      "peakConcurrentRequests": 2,
+      "sections": [
+        {
+          "name": "range",
+          "itemCount": 1,
+          "bytes": 39,
+          "averageBytesPerItem": 39
+        },
+        {
+          "name": "actionable assignments",
+          "itemCount": 1,
+          "bytes": 217,
+          "averageBytesPerItem": 217
+        },
+        {
+          "name": "actionable learning/videos",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "upcoming/deadlines",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational announcements",
+          "itemCount": 1,
+          "bytes": 186,
+          "averageBytesPerItem": 186
+        },
+        {
+          "name": "informational notifications",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational resources",
+          "itemCount": 1,
+          "bytes": 91,
+          "averageBytesPerItem": 91
+        },
+        {
+          "name": "unknown/needs-verification",
+          "itemCount": 1,
+          "bytes": 513,
+          "averageBytesPerItem": 513
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "warnings",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "other metadata",
+          "itemCount": 1,
+          "bytes": 102,
+          "averageBytesPerItem": 102
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_get_weekly_tasks",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 1306,
+      "mcpEnvelopeBytes": 1513,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 1817,
+      "emptyFields": 7,
+      "longTextFields": 0,
+      "urlCount": 3,
+      "urlBytes": 159,
+      "repeatedIdentityOccurrences": 3,
+      "internalFieldCounts": {
+        "applicabilityBasis": 1,
+        "deadlineBasis": 1,
+        "deadlineCandidates": 1
+      },
+      "networkRequests": 0,
+      "cacheHits": 5,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0,
+      "sections": [
+        {
+          "name": "range",
+          "itemCount": 1,
+          "bytes": 39,
+          "averageBytesPerItem": 39
+        },
+        {
+          "name": "actionable assignments",
+          "itemCount": 1,
+          "bytes": 217,
+          "averageBytesPerItem": 217
+        },
+        {
+          "name": "actionable learning/videos",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "upcoming/deadlines",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational announcements",
+          "itemCount": 1,
+          "bytes": 186,
+          "averageBytesPerItem": 186
+        },
+        {
+          "name": "informational notifications",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "informational resources",
+          "itemCount": 1,
+          "bytes": 91,
+          "averageBytesPerItem": 91
+        },
+        {
+          "name": "unknown/needs-verification",
+          "itemCount": 1,
+          "bytes": 513,
+          "averageBytesPerItem": 513
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "warnings",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "other metadata",
+          "itemCount": 1,
+          "bytes": 102,
+          "averageBytesPerItem": 102
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_list_videos",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 484,
+      "mcpEnvelopeBytes": 587,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 446,
+      "emptyFields": 4,
+      "longTextFields": 0,
+      "urlCount": 1,
+      "urlBytes": 47,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {
+        "applicabilityBasis": 1,
+        "deadlineBasis": 1,
+        "deadlineCandidates": 1
+      },
+      "networkRequests": 1,
+      "cacheHits": 0,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_list_videos",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 484,
+      "mcpEnvelopeBytes": 587,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 446,
+      "emptyFields": 4,
+      "longTextFields": 0,
+      "urlCount": 1,
+      "urlBytes": 47,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {
+        "applicabilityBasis": 1,
+        "deadlineBasis": 1,
+        "deadlineCandidates": 1
+      },
+      "networkRequests": 0,
+      "cacheHits": 0,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0
+    },
+    {
+      "toolName": "learnus_get_video_attendance",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 605,
+      "mcpEnvelopeBytes": 722,
+      "itemCount": 1,
+      "warningsCount": 1,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 524,
+      "emptyFields": 3,
+      "longTextFields": 0,
+      "urlCount": 1,
+      "urlBytes": 47,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {
+        "applicabilityBasis": 1,
+        "deadlineBasis": 1,
+        "deadlineCandidates": 1
+      },
+      "networkRequests": 2,
+      "cacheHits": 0,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_get_video_attendance",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 605,
+      "mcpEnvelopeBytes": 722,
+      "itemCount": 1,
+      "warningsCount": 1,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 524,
+      "emptyFields": 3,
+      "longTextFields": 0,
+      "urlCount": 1,
+      "urlBytes": 47,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {
+        "applicabilityBasis": 1,
+        "deadlineBasis": 1,
+        "deadlineCandidates": 1
+      },
+      "networkRequests": 0,
+      "cacheHits": 0,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0
+    },
+    {
+      "toolName": "learnus_get_learning_overview",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 1271,
+      "mcpEnvelopeBytes": 1474,
+      "itemCount": 1,
+      "warningsCount": 1,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 1644,
+      "emptyFields": 9,
+      "longTextFields": 0,
+      "urlCount": 2,
+      "urlBytes": 94,
+      "repeatedIdentityOccurrences": 3,
+      "internalFieldCounts": {
+        "applicabilityBasis": 2,
+        "deadlineBasis": 2,
+        "deadlineCandidates": 2
+      },
+      "networkRequests": 2,
+      "cacheHits": 0,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1,
+      "sections": [
+        {
+          "name": "courses",
+          "itemCount": 1,
+          "bytes": 573,
+          "averageBytesPerItem": 573
+        },
+        {
+          "name": "requiredIncomplete",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "excludedOrOptional",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "unknown",
+          "itemCount": 1,
+          "bytes": 513,
+          "averageBytesPerItem": 513
+        },
+        {
+          "name": "warnings",
+          "itemCount": 1,
+          "bytes": 37,
+          "averageBytesPerItem": 37
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_get_learning_overview",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 1271,
+      "mcpEnvelopeBytes": 1474,
+      "itemCount": 1,
+      "warningsCount": 1,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 1644,
+      "emptyFields": 9,
+      "longTextFields": 0,
+      "urlCount": 2,
+      "urlBytes": 94,
+      "repeatedIdentityOccurrences": 3,
+      "internalFieldCounts": {
+        "applicabilityBasis": 2,
+        "deadlineBasis": 2,
+        "deadlineCandidates": 2
+      },
+      "networkRequests": 0,
+      "cacheHits": 0,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0,
+      "sections": [
+        {
+          "name": "courses",
+          "itemCount": 1,
+          "bytes": 573,
+          "averageBytesPerItem": 573
+        },
+        {
+          "name": "requiredIncomplete",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "completed",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "excludedOrOptional",
+          "itemCount": 0,
+          "bytes": 2,
+          "averageBytesPerItem": 0
+        },
+        {
+          "name": "unknown",
+          "itemCount": 1,
+          "bytes": 513,
+          "averageBytesPerItem": 513
+        },
+        {
+          "name": "warnings",
+          "itemCount": 1,
+          "bytes": 37,
+          "averageBytesPerItem": 37
+        }
+      ]
+    },
+    {
+      "toolName": "learnus_list_files",
+      "variant": "default",
+      "status": "OK",
+      "resultBytes": 208,
+      "mcpEnvelopeBytes": 277,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 196,
+      "emptyFields": 1,
+      "longTextFields": 0,
+      "urlCount": 0,
+      "urlBytes": 0,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 1,
+      "cacheHits": 0,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_list_files",
+      "variant": "default-warm",
+      "status": "OK",
+      "resultBytes": 208,
+      "mcpEnvelopeBytes": 277,
+      "itemCount": 1,
+      "warningsCount": 0,
+      "structuredContent": false,
+      "largestFieldCategory": "other",
+      "largestFieldCategoryBytes": 196,
+      "emptyFields": 1,
+      "longTextFields": 0,
+      "urlCount": 0,
+      "urlBytes": 0,
+      "repeatedIdentityOccurrences": 0,
+      "internalFieldCounts": {},
+      "networkRequests": 0,
+      "cacheHits": 0,
+      "cacheMisses": 0,
+      "coalescedRequests": 0,
+      "peakConcurrentRequests": 0
+    },
+    {
+      "toolName": "learnus_get_course",
+      "variant": "concurrent-3",
+      "status": "OK",
+      "resultBytes": 540,
+      "mcpEnvelopeBytes": 651,
+      "networkRequests": 1,
+      "cacheHits": 0,
+      "cacheMisses": 1,
+      "coalescedRequests": 2,
+      "peakConcurrentRequests": 1
+    },
+    {
+      "toolName": "learnus_get_overview",
+      "variant": "concurrent-3",
+      "status": "OK",
+      "resultBytes": 738,
+      "mcpEnvelopeBytes": 871,
+      "networkRequests": 5,
+      "cacheHits": 0,
+      "cacheMisses": 5,
+      "coalescedRequests": 12,
+      "peakConcurrentRequests": 2
+    },
+    {
+      "toolName": "learnus_get_weekly_tasks",
+      "variant": "concurrent-3",
+      "status": "OK",
+      "resultBytes": 1306,
+      "mcpEnvelopeBytes": 1513,
+      "networkRequests": 7,
+      "cacheHits": 0,
+      "cacheMisses": 5,
+      "coalescedRequests": 12,
+      "peakConcurrentRequests": 2
+    }
+  ]
+}

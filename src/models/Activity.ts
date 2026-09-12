@@ -1,0 +1,1 @@
+export interface Activity { id?: number; name?: string; type: 'assign' | 'quiz' | 'ubboard' | 'vod' | 'unknown'; module?: string; url?: string; completionState?:import('../parser/completion.js').CompletionState }
